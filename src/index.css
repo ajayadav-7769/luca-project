@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+body {
+  font-family: "Varela Round", sans-serif;
+}
+
+.underline-zigzag {
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='6' viewBox='0 0 100 6'><path d='M0 3 L5 6 L10 0 L15 6 L20 0 L25 6 L30 0 L35 6 L40 0 L45 6 L50 0 L55 6 L60 0 L65 6 L70 0 L75 6 L80 0 L85 6 L90 0 L95 6 L100 0' stroke='%2339A7C5' fill='transparent' stroke-width='2'/></svg>");
+  background-repeat: repeat-x;
+  background-position: 0 100%;
+  background-size: auto 6px;
+  padding-bottom: 4px;
+
+}
+
+.underline-zigzag1 {
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 6px;
+
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='100' height='6' viewBox='0 0 100 6'><path d='M0 3 L5 6 L10 0 L15 6 L20 0 L25 6 L30 0 L35 6 L40 0 L45 6 L50 0 L55 6 L60 0 L65 6 L70 0 L75 6 L80 0 L85 6 L90 0 L95 6 L100 0' stroke='%2339A7C5' fill='transparent' stroke-width='2'/></svg>");
+
+  background-repeat: repeat-x;
+  background-size: auto 6px;
+}
