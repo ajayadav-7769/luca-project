@@ -47,7 +47,7 @@ const Connect = () => {
               <img
                 src="/Connect/text.png"
                 alt="The book that inspired the series"
-                className="absolute -top-[55%]"
+                className="absolute -top-[50%]"
               />
             </div>
           </div>
