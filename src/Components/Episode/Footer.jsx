@@ -62,7 +62,7 @@ const Footer = () => {
 
             <div className="absolute top-[30%] left-30">
               <img
-                src="/Logo/logo.png"
+                src="/Logo/footer2.png"
                 alt="Luca.com"
                 className="h-12 filter brightness-0 invert"
               />
