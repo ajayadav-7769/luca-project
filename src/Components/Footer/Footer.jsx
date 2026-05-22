@@ -116,7 +116,7 @@ const Footer = () => {
               <img
                 src="/Footer/footer-mobile.png"
                 alt="The book that inspired the series"
-                className="w-full h-[645px]"
+                className="w-full h-[650px]"
               />
             </div>
             {/* Hero Image */}
