@@ -139,7 +139,7 @@ const Connect = () => {
       <section className="sm:hidden">
         <div className="h-screen">
           {/* Text Section */}
-          <div className="absolute text-center w-full top-[525%] ">
+          <div className="absolute text-center w-full top-[530%] ">
             <h1 className="text-[42px] flex flex-col w-full">
               <span>
                 <span className="font-bold">
@@ -161,7 +161,7 @@ const Connect = () => {
             ref={mobileFormRef}
             onSubmit={(e) => sendEmail(e, mobileFormRef)}>
             {/* Form */}
-            <div className="absolute top-[540%] w-full flex flex-col items-center justify-center px-4 sm:px-10">
+            <div className="absolute top-[550%] w-full flex flex-col items-center justify-center px-4 sm:px-10">
               <div className="flex flex-col sm:flex-row gap-10 w-full justify-center">
                 {/* LEFT (same structure, bas form hata diya) */}
                 <div className="flex flex-col items-center sm:items-start">
@@ -219,7 +219,7 @@ const Connect = () => {
             </div>
 
             {/* Button (same UI) */}
-            <div className="absolute top-[635%] right-[15%]">
+            <div className="absolute top-[645%] right-[15%]">
               <div className="border-2 font-bold border-b-4 p-3 px-5 rounded-full">
                 <button type="submit">Send it my way!</button>
               </div>
@@ -230,7 +230,7 @@ const Connect = () => {
           <div className="w-full flex justify-center">
             <img
               src="/Connect/mail.png"
-              className="absolute top-[635%] left-[15%] cursor-pointer"
+              className="absolute top-[645%] left-[15%] cursor-pointer"
               onClick={() => mobileFormRef.current?.requestSubmit()}
             />
           </div>
