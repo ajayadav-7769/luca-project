@@ -219,7 +219,7 @@ const Connect = () => {
             </div>
 
             {/* Button (same UI) */}
-            <div className="absolute top-[621%] right-[15%]">
+            <div className="absolute top-[627%] right-[15%]">
               <div className="border-2 font-bold border-b-4 p-3 px-5 rounded-full">
                 <button type="submit">Send it my way!</button>
               </div>
@@ -230,7 +230,7 @@ const Connect = () => {
           <div className="w-full flex justify-center">
             <img
               src="/Connect/mail.png"
-              className="absolute top-[621%] left-[15%] cursor-pointer"
+              className="absolute top-[627%] left-[15%] cursor-pointer"
               onClick={() => mobileFormRef.current?.requestSubmit()}
             />
           </div>
